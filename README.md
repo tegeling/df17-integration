@@ -30,6 +30,7 @@ https://orderdb.herokuapp.com/orders.svc/
 ```
 
 ## Slack integration
+Slack Channel: https://sfintegrationdemo.slack.com/messages/C2ELARHEG/
 Apex class to integrate with Slack WebHooks - see https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack
 ```Apex
 public class SlackPub {
