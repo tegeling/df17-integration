@@ -22,7 +22,8 @@ PATCH a broker to update some fields
 "Phone__c" : "+1-617-244-3673"
 }
 ```
-## SLACK integration
+## Slack integration
+Apex class to integrate with Slack WebHooks - see https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack
 ```Apex
 public class SlackPub {
 
