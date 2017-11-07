@@ -1,12 +1,12 @@
 # Dreamforce 17 - Salesforce Integration and API Overview Code Snippets
 
-## Rest SOQL
+## Rest API - SOQL
 Select all Brokers
 ```
 /services/data/v41.0/query/?q=SELECT id,name,email__c FROM Broker__c
 ```
 
-## Rest CRUD
+## Rest API - CRUD
 Describe the Broker object
 ```
 /services/data/v37.0/sobjects/Broker__c/describe
@@ -22,6 +22,13 @@ PATCH a broker to update some fields
 "Phone__c" : "+1-617-244-3673"
 }
 ```
+
+## Salesforce Connect
+External Data Source OrderDB
+```
+https://orderdb.herokuapp.com/orders.svc/
+```
+
 ## Slack integration
 Apex class to integrate with Slack WebHooks - see https://get.slack.help/hc/en-us/articles/115005265063-Incoming-WebHooks-for-Slack
 ```Apex
